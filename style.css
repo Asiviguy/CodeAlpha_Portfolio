@@ -312,8 +312,8 @@ footer{
     border-radius:8px;
 }
 .avatar-circle{
-    width:250px;
-    height:250px;
+    width:280px;
+    height:280px;
     border-radius:50%;
     display:flex;
     justify-content:center;
@@ -323,4 +323,18 @@ footer{
     background:linear-gradient(135deg,#06b6d4,#3b82f6);
     color:white;
     box-shadow:0 0 40px rgba(59,130,246,.5);
+}
+.resume-card{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+    background:rgba(255,255,255,0.08);
+    border-radius:20px;
+    backdrop-filter:blur(15px);
+    line-height:1.8;
+}
+
+.resume-card h4{
+    margin-top:20px;
+    color:#8b5cf6;
 }
